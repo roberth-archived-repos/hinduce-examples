@@ -5,8 +5,6 @@ module Data.HInduce.Examples (
   , module Data.HInduce.Classifier.DecisionTree
   , module Data.List.HIUtils
   , module Text.Layout
-  , module Text.Layout.DisplayText
-  , module Text.Layout.DisplayLatex
   , module Data.Convertible
   -- * Helpers (TODO move to module)
   , readCSV
@@ -45,11 +43,9 @@ import Paths_hinduce_examples
 import Data.HInduce.Classifier
 import Data.HInduce.Classifier.DecisionTree
 import Text.Layout
-import Text.Layout.DisplayText
-import Text.Layout.DisplayLatex
 import Data.Convertible
 import Data.List.HIUtils
-import IO
+import System.IO
 import Text.CSV
 import System.IO.Unsafe
 
