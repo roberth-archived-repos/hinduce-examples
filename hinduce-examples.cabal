@@ -1,5 +1,5 @@
 Name:           hinduce-examples
-Version:        0.0.0.1
+Version:        0.0.0.2
 License:        BSD3
 Author:         Robert Hensing
 Synopsis:       Example data for hInduce
@@ -13,6 +13,7 @@ Data-Files:
     data/iris/iris.data
     data/iris/bezdekIris.data
     data/iris/iris.names
+    data/T10I4D100K.dat
 
 Library
     Build-Depends:      base >= 4 && < 5
@@ -21,7 +22,10 @@ Library
                         , csv >= 0.1.2
                         , hinduce-classifier >= 0.0.0.0
                         , hinduce-classifier-decisiontree >= 0.0.0.0
+                        , hinduce-associations-apriori >= 0.0.0.0
                         , convertible
+                        , containers >= 0.4.2.0
+                        , vector >= 0.9.1
     Exposed-Modules:    Data.HInduce.Examples
     Other-Modules:	Paths_hinduce_examples
     Hs-Source-Dirs:     src
