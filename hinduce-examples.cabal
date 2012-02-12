@@ -27,5 +27,9 @@ Library
                         , containers >= 0.4.2.0
                         , vector >= 0.9.1
     Exposed-Modules:    Data.HInduce.Examples
+                        -- These need not be exposed, but we do to make
+                        -- the haddock documentation more readable.
+                        , Data.HInduce.Examples.DecisionTree
+                        , Data.HInduce.Examples.Associations
     Other-Modules:	Paths_hinduce_examples
     Hs-Source-Dirs:     src
